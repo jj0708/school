@@ -1,0 +1,72 @@
+.intro_his_box{
+	overflow:hidden;
+	margin:0 10px;
+	width:720px;
+}
+.intro_his_box h3{
+	overflow:hidden;
+	margin:26px 0 4px;
+	width:720px;
+	height:28px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:28px;
+	color:#000;
+	text-align:center;
+}
+.small_mark{
+	height:22px;
+	text-align:center;
+}
+.small_mark span{
+	margin-right:20px;
+}
+.small_mark span,.small_mark em{
+	display:inline-block;
+	font-size:12px;
+	line-height:22px;
+	color:#000;
+}
+.intro_his_img{
+	margin:10px auto 16px;
+	width:384px;
+	height:252px;
+}
+.intro_his_img img{
+	display:block;
+	width:384px;
+	height:252px;
+}
+.intro_his_para{
+	overflow:hidden;
+	width:720px;
+	height:260px;
+}
+.intro_his_para p{
+	font-size:12px;
+	line-height:26px;
+	color:#000;
+	text-indent:2em;
+}
+.last_para{
+	overflow:hidden;
+	margin-right:68px;
+	height:26px;
+	font-size:12px;
+	line-height:26px;
+	color:#000;
+	text-align:right;
+}
+.last_para span{
+	display:inline-block;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+

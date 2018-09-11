@@ -1,0 +1,218 @@
+/*学校活动目录详情*/
+.school_active_detail{
+	overflow:hidden;
+	margin-top:4px;
+	width:740px;
+	height:150px;
+	border-bottom:1px dashed #cdcdcd;
+	box-sizing:border-box;
+}
+.school_active_detail_img{
+	float:left;
+	margin:25px 22px;
+	width:128px;
+	height:99px;
+}
+.school_active_detail_img a,.school_active_detail_img a img{
+	display:block;
+	width:128px;
+	height:99px;
+}
+.school_active_detail_desicribe{
+	overflow:hidden;
+	margin-left:172px;
+	padding-right:10px;
+	width:558px;
+}
+.school_active_detail_desicribe h5{
+	overflow:hidden;
+	margin-top:25px;
+	width:558px;
+	height:28px;
+}
+.school_active_detail_desicribe h5 a{
+	display:block;
+	font-size:14px;
+	line-height:28px;
+	color:#006699;
+	text-align:left;
+}
+.school_active_detail_desicribe h5 a:hover,.school_active_content_ul li a:hover{
+	color:#ec6400;
+}
+.school_active_detail_desicribe p{
+	overflow:hidden;
+	margin-top:3px;
+	width:558px;
+	height:72px;
+	font-size:12px;
+	line-height:24px;
+	color:#000;
+	text-indent:2em;
+}
+.school_active_content_ul{
+	width:740px;
+}
+.school_active_content_ul li{
+	height:34px;
+	border-bottom:1px dashed #cdcdcd;
+	box-sizing:border-box;
+}
+.school_active_content_ul li a{
+	overflow:hidden;
+	padding-left:10px;
+	display:block;
+	font-size:12px;
+	height:34px;
+	line-height:34px;
+	color:#8f8f8f;
+}
+.school_active_content_ul li a em{
+	margin-bottom:12px;
+	display:inline-block;
+	border-width:5px;
+	border-style:solid;
+	border-color:transparent transparent transparent #0074b7;
+}
+.school_active_content_ul li a p{
+	overflow:hidden;
+	display:inline-block;
+	width:590px;
+	height:34px;
+}
+.school_active_content_ul li a span{
+	overflow:hidden;
+	display:inline-block;
+	padding-right:5px;
+	width:117px;
+	height:34px;
+	text-align:right;
+}
+/*学校图片展览列表*/
+.intro_exhi_list{
+	overflow:hidden;
+	margin:0 10px;
+	width:720px;
+}
+.intro_exhi_list li{
+	float:left;
+	margin:22px 23px;
+	width:194px;
+	height:158px;
+}
+.intro_exhi_list li a{
+	display:block;
+	padding:4px;
+	width:194px;
+	height:130px;
+	border:1px solid #b9b9b9;
+	box-sizing:border-box;
+	border-radius:4px;
+}
+.intro_exhi_list li a:hover{
+	border-color:#ec6400;
+}
+.intro_exhi_list_img{
+	width:186px;
+	height:122px;
+}
+.intro_exhi_list_img img{
+	display:block;
+	width:186px;
+	height:122px;
+}
+.intro_exhi_list li h4{
+	margin:12px 4px 0 4px;
+	width:186px;
+	height:16px;
+	font-size:12px;
+	font-weight:normal;
+	line-height:16px;
+	color:#333;
+	text-align:center;
+}
+/*学校历史的图文描述*/
+.intro_his_box{
+	overflow:hidden;
+	margin:0 10px;
+	width:720px;
+}
+.intro_his_box h3{
+	overflow:hidden;
+	margin:26px 0 4px;
+	width:720px;
+	height:28px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:28px;
+	color:#000;
+	text-align:center;
+}
+.small_mark{
+	height:22px;
+	text-align:center;
+}
+.small_mark span{
+	margin-right:20px;
+}
+.small_mark span,.small_mark em{
+	display:inline-block;
+	font-size:12px;
+	line-height:22px;
+	color:#000;
+}
+.intro_his_img{
+	margin:10px auto 16px;
+	width:384px;
+	height:252px;
+}
+.intro_his_img img{
+	display:block;
+	width:384px;
+	height:252px;
+}
+.intro_his_para{
+	overflow:hidden;
+	width:720px;
+	height:260px;
+}
+.intro_his_para p{
+	font-size:12px;
+	line-height:26px;
+	color:#000;
+	text-indent:2em;
+}
+.last_para{
+	overflow:hidden;
+	margin-right:68px;
+	height:26px;
+	font-size:12px;
+	line-height:26px;
+	color:#000;
+	text-align:right;
+}
+.last_para span{
+	display:inline-block;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

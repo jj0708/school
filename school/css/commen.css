@@ -1,0 +1,183 @@
+body{
+	background:url(../image/bady_bg.png) repeat 0 0;
+}
+*{
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+	font-style:normal;
+	list-style-type:none;
+	text-decoration:none;
+}
+.wrap{
+	margin:0 auto;
+	padding:0 1px 0 1px;
+	width:1145px;
+	background-color:#fff;
+/*IE不支持box-shadow属性，但是可以通过shadow滤镜来实现阴影效果，IE并没有把文字阴影和盒子阴影区分，元素中的文字会继承元素的阴影 设置，如果你不定义该元素的background和border，就只会出现文字阴影，如果只定义 background属性就只会出现盒子阴影，文字不会出现阴影；如果只定义了border属性则盒子阴影及文字阴影都呈现。Glow是指边缘发光，有马赛克的感觉、Shadow是指阴影*/
+/*IE*/
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#b5c2cf,direction=-10,strength=30);
+/*firefox*/	
+	-moz-box-shadow:-10px 0 30px #b5c2cf,
+	0 0 0 #fff,
+	0 0 0 #fff,
+	10px 0 30px #b5c2cf;
+/*safari,chrome*/
+	-webkit-box-shadow:-10px 0 30px #b5c2cf,
+	0 0 0 #fff,
+	0 0 0 #fff,
+	10px 0 30px #b5c2cf;
+/**opera,IE9*****左上下右*****/
+	box-shadow:-10px 0 30px #b5c2cf,
+	0 0 0 #fff,
+	0 0 0 #fff,
+	10px 0 30px #b5c2cf;
+}
+.head_box{
+	overflow:hidden;
+	height:143px;
+}
+.head_logo_box{
+	width:1145px;
+	height:107px;
+	background:url(../image/head_bg.png) repeat-x 0 0;
+}
+.logo_box{
+	overflow:hidden;
+	margin:0 auto;
+	width:1018px;
+	height:107px;
+}
+.logo_nav{
+	float:right;
+	margin-top:10px;
+	height:12px;
+}
+.logo_nav li{
+	float:left;
+	height:12px;
+	border-left:1px solid #06677a;
+}
+.logo_nav li a{
+	float:left;
+	padding:0 10px;
+	font-size:12px;
+	height:12px;
+	line-height:12px;
+	color:#06677a;
+}
+.logo_nav li:first-child{
+	border-left:0;
+}
+.logo_img{
+	margin:16px 0 0 28px;
+	width:322px;
+	height:91px;
+	font-size:18px;
+	line-height:91px;
+	color:#ee7a0a;
+	text-align:center;
+	text-indent:-999px;
+	background:url(../image/logo.png) no-repeat 0 0;
+}
+.head_nav{
+	height:36px;
+	background:url(../image/nav1.png) no-repeat 0 0;
+}
+.head_nav ul{
+	margin:0 auto;
+	width:1000px;
+	height:36px;
+}
+.head_nav ul li{
+	float:left;
+}
+.head_nav ul li a{
+	float:left;
+	width:100px;
+	height:36px;
+}
+.head_nav ul li a:hover{
+	background-image:url(../image/nav2.png);
+	background-repeat:no-repeat;
+}
+.head_nav ul li .li1:hover{
+	background-position:-73px 0;
+}
+.head_nav ul li .li2:hover{
+	background-position:-173px 0;
+}
+.head_nav ul li .li3:hover{
+	background-position:-273px 0;
+}
+.head_nav ul li .li4:hover{
+	background-position:-373px 0;
+}
+.head_nav ul li .li5:hover{
+	background-position:-473px 0;
+}
+.head_nav ul li .li6:hover{
+	background-position:-573px 0;
+}
+.head_nav ul li .li7:hover{
+	background-position:-673px 0;
+}
+.head_nav ul li .li8:hover{
+	background-position:-773px 0;
+}
+.head_nav ul li .li9:hover{
+	background-position:-873px 0;
+}
+.head_nav ul li .li10:hover{
+	background-position:-973px 0;
+}
+.clear_box{
+	clear:both;
+}
+.foot_box{
+	overflow:hidden;
+	margin-top:12px;
+	width:1145px;
+	height:93px;
+	background:url(../image/foot_bg.gif) no-repeat 0 0;
+}
+.foot_txt{
+	margin:20px auto 0;
+	width:1016px;
+	height:36px;
+}
+.foot_nav{
+	margin-bottom:4px;
+	height:12px;
+	line-height:12px;
+	text-align:center;
+}
+.foot_nav a{
+	display:inline-block;
+	padding:0 10px;
+	font-size:12px;
+	height:12px;
+	line-height:12px;
+	color:#000;
+	border-left:1px solid #000;
+	box-sizing:border-box;
+}
+.foot_nav a:first-child{
+	border-left:0;
+}
+.foot_txt p{
+	overflow:hidden;
+	height:20px;
+	line-height:20px;
+	color:#000;
+	text-align:center;
+}
+.foot_txt p span{
+	display:inline-block;
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+}
+.foot_magin{
+	margin-right:40px;
+}
