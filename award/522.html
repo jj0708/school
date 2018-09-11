@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/522.css" />
+<script>
+(function (doc, win) {
+  var docEl = doc.documentElement,
+	resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	recalc = function () {
+	  var clientWidth = docEl.clientWidth;
+	  if (!clientWidth) return;
+	  docEl.style.fontSize = 100 * (clientWidth / 360) + 'px';
+	};
+	recalc();
+  if (!doc.addEventListener) return;
+  win.addEventListener(resizeEvt, recalc, false);
+  doc.addEventListener('DOMContentLoaded', recalc, false);
+})(document, window);
+</script>
+<script type="text/javascript" src="../jquery/jquery.js"></script>
+<script type="text/javascript" src="js/522.js"></script>
+</head>
+
+<body>
+<div class="wrap_box">
+	<div class="head_img">
+    	<img class="head_img_1" src="images/head_1.png" />
+        <img class="head_img_2" src="images/head_2.png" />
+        <img class="head_img_3" src="images/head_3.png" />
+    </div>
+    
+    <div class="active_box">
+    	<div class="active_img">
+        	<img src="images/active_bg.png" />
+        </div>
+        <div class="active_award_bbg">
+        	<div class="active_award_wbg">
+            	<div class="award_1 award_all_box">
+                	<div class="award_top">
+                        <div class="award_all">
+                            <img src="images/img/iphonex.jpg" />
+                        </div>
+                        <div class="award_all">
+                            <img src="images/img/100.jpg" />
+                        </div>
+                        <div class="award_all">
+                            <img src="images/img/zlyc.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="award_2 award_all_box">
+                	<div class="award_top">
+                        <div class="award_all">
+                            <img src="images/img/188.jpg" />
+                        </div>
+                        <div class="award_all">
+                            <img src="images/img/25.jpg" />
+                        </div>
+                        <div class="award_all">
+                            <img src="images/img/99.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="award_3 award_all_box">
+                	<div class="award_top">
+                        <div class="award_all">
+                            <img src="images/img/2018.jpg" />
+                        </div>
+                        <div class="award_all">
+                            <img src="images/img/66.jpg" />
+                        </div>
+                        <div class="award_all">
+                            <img src="images/img/500.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="jiang_box">
+    	<a href="javascript:;" id="jiang_a">
+    		<img src="images/award.png" />
+        	<span>每次消耗88看点</span>
+        </a>
+    </div>
+    
+    <div class="wrap_popout">
+    	<div class="popout_box">
+        	<div class="clear_pop_box">
+        		<a href="javascript:;" id="clear_pop">
+                	<img src="images/clear_but_icon.png" />
+                </a>
+            </div>
+            <h2>恭喜您获得</h2>
+            <div class="pop_content_box">
+            	<div class="focus">
+                	<img src="images/k_icon.png" />
+                	<h3>68看点红包</h3>
+                </div>
+                <div class="pop_txt">
+                	<p>已发放至您的个人账户</p>
+                    <p>请在充值记录内查看</p>
+                </div>
+                <div class="continue">
+                	<a href="javascript:;" id="continue_a">
+                    	<span>继续抽奖</span>
+                    </a>
+                </div>
+                <div class="share_box">
+                	<div class="share_txt">
+                    	<span class="left_span"></span>
+                        <strong>分享到</strong>
+                        <span class="right_span"></span>
+                    </div>
+                </div>
+                <div class="share_foot">
+                	<div class="chat_box">
+                    	<a href="javascript:">
+                        	<img src="images/wx_logo.png" />
+                        </a>
+                        <span>微信好友</span>
+                    </div>
+                	<div class="chat_box">
+                    	<a href="javascript:">
+                        	<img src="images/py_logo.png" />
+                        </a>
+                        <span>朋友圈</span>
+                    </div>
+                	<div class="chat_box">
+
+                    	<a href="javascript:">
+                        	<img src="images/qq_logo.png" />
+                        </a>
+                        <span>QQ好友</span>
+                    </div>
+                	<div class="chat_box">
+                    	<a href="javascript:">
+                        	<img src="images/zone_logo.png" />
+                        </a>
+                        <span>QQ空间</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="null"></div>
+    </div>
+    
+    <div id="time" class="time">
+    </div>
+    
+    <div class="nav_tit">
+    	<ul class="nav" id="nav">
+        	<li><a href="javascript:;" class="nav_first_a">中奖广播</a></li>
+        	<li><a href="javascript:;">活动规则</a></li>
+        	<li><a href="javascript:;">中奖纪录</a></li>
+        </ul>
+    </div>
+    
+    <div class="award_name_box" id="award_name_box">
+		<div class="aaa">
+        	<div class="lucky">
+				<h3>恭喜 XXXXXXXXXXX抽1中  IphoneX</h3>
+           	</div>
+			<ul class="ul_award_name">
+				<li>
+					<a href="javascript:;">恭喜 XXXXXXXXXXX抽中  IphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">恭喜 XXXXXXXXXXX抽中  IphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">恭喜 XXXXXXXXXXX抽中  IphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">恭喜 XXXXXXXXXXX抽中  IphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">恭喜 XXXXXXXXXXX抽中  IphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">恭喜 XXXXXXXXXXX抽中  IphoneX</a>
+				</li>
+			</ul>
+			<div class="foot_box">
+				<div class="foot_img">
+					<img src="images/bird.jpg" />
+				</div>
+				<h4>
+					<img src="images/story.png" />
+				</h4>
+				<a href="javascript:;" class="open">立即打开</a>
+			</div>
+			<div class="margin_bt"></div>
+		</div>
+		<div class="aaa">
+        	<div class="lucky">
+				<h3>恭喜 XXXXXXXXXXX2抽中  IphoneX</h3>
+            </div>
+			<ul class="ul_award_name">
+				<li>
+					<a href="javascript:;">XXXXXXXXXXX抽中</a>
+				</li>
+				<li>
+					<a href="javascript:;">XXXXXXXXXXX抽</a>
+				</li>
+				<li>
+					<a href="javascript:;">XXXXXXXXXXX抽</a>
+				</li>
+				<li>
+					<a href="javascript:;">XXXXXXXXXXX抽</a>
+				</li>
+				<li>
+					<a href="javascript:;">XXXXXXXXXXX抽</a>
+				</li>
+				<li>
+					<a href="javascript:;">XXXXXXXXXXX抽</a>
+				</li>
+			</ul>
+			<div class="foot_box">
+				<div class="foot_img">
+					<img src="images/bird.jpg" />
+				</div>
+				<h4>
+					<img src="images/story.png" />
+				</h4>
+				<a href="javascript:;" class="open">立即打开</a>
+			</div>
+			<div class="margin_bt"></div>
+		</div>
+		<div class="aaa">
+        	<div class="lucky">
+				<h3>恭喜 XXXXXXXXXXX3抽中  IphoneX</h3>
+            </div>
+			<ul class="ul_award_name">
+				<li>
+					<a href="javascript:;">IphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">IphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">IphoneXIphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">IphoneX IphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">IphoneXIphoneX</a>
+				</li>
+				<li>
+					<a href="javascript:;">IphoneX  IphoneX</a>
+				</li>
+			</ul>
+			<div class="foot_box">
+				<div class="foot_img">
+					<img src="images/bird.jpg" />
+				</div>
+				<h4>
+					<img src="images/story.png" />
+				</h4>
+				<a href="javascript:;" class="open">立即打开</a>
+			</div>
+			<div class="margin_bt"></div>
+		</div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+var nClearTime=null;
+var nNum=0;
+var nPx=0;
+var oNavAs=document.getElementById('nav').getElementsByTagName('a');
+var oAwardNameDiv=document.getElementById('award_name_box').getElementsByClassName('aaa');
+var oClick=document.getElementById('jiang_a');
+var h=document.getElementsByClassName("award_all").item(0).clientHeight;
+var oWrapPop=document.getElementsByClassName("wrap_popout");
+var oPopBox=document.getElementsByClassName("popout_box");
+var oClearPop=document.getElementById("clear_pop");
+var oContinuePop=document.getElementById("continue_a");
+for( var j=0;j<oNavAs.length;j++){
+	add(j);
+}
+oClick.onclick=function(){
+	nNum++
+	if(nNum%2==1){
+	clearTimeout(nClearTime);
+	nClearTime=setTimeout(SetTime,10);
+	}else{
+		clearTimeout(nClearTime);
+		oWrapPop.item(0).style.display="block";
+		oPopBox.item(0).style.display="inline-block";
+	}
+}
+oClearPop.onclick=function(){
+	clearTimeout(nClearTime);
+	oWrapPop.item(0).style.display="none";
+	oPopBox.item(0).style.display="none";
+}
+oContinuePop.onclick=function(){
+	oWrapPop.item(0).style.display="none";
+	oPopBox.item(0).style.display="none";
+	clearTimeout(nClearTime);
+	nClearTime=setTimeout(SetTime,10);
+}
+
+window.onload=function(){
+	h=document.getElementsByClassName("award_all").item(0).clientHeight;
+	console.log(h);
+}
+window.onresize=function(){
+	h=document.getElementsByClassName('award_all').item(0).clientHeight;
+	console.log(h);
+}
+function SetTime(){
+	clearTimeout(nClearTime);
+	
+	var oAwardTop=document.getElementsByClassName("award_top");
+	for(var k=0;k < oAwardTop.length;k++){
+		if(nPx == h * -1){
+			oAwardTop.item(k).style.marginTop=0 + "px";
+			oAwardTop.item(k).appendChild(oAwardTop.item(k).getElementsByClassName("award_all").item(0).cloneNode(true));
+			oAwardTop.item(k).getElementsByClassName("award_all").item(0).remove();
+		}else{
+			oAwardTop.item(k).style.marginTop=nPx + "px";
+		}
+	};
+	nPx = nPx - 1;
+	if(nPx < h * -1){
+		nPx = 0;
+	}
+	
+	nClearTime=setTimeout(SetTime,10);
+}
+
+function add(num){
+	oNavAs.item(num).onmouseover=function(){
+		for(var i=0;i<oNavAs.length;i++){
+			oNavAs.item(i).removeAttribute('class','hover');
+			oAwardNameDiv.item(i).style.display="none";
+		}
+		oNavAs.item(num).setAttribute('class','hover');
+		oAwardNameDiv.item(num).style.display="block";
+	}
+}
+
+</script>
